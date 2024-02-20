@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lxbe
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0053-tenant/tkrw-pr712-0075-0053-app/devfile-sample-lxbe@sha256:7b2089c36586a22c3a5553e7408c7f34dc55013c8e4c939215e2affcc130d1ad
         name: my-nodejs
         ports:
         - containerPort: 3001
